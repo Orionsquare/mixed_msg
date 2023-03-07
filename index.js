@@ -1,4 +1,4 @@
-//to set the current date (this program is correct)
+//to set the current date 
 const monthEl = document.getElementById("month");
 const dayEl = document.getElementById("day");
 const yearEl = document.getElementById("year");
@@ -17,8 +17,8 @@ function updateCalendar(){
     
 }
 updateCalendar();
-// the above is correct
 
+//to set random quotes
 const quotes =["You are beautiful in so many ways.", "A smile can say a thousand words without making a sound.", "Happiness is always just round the corner!", "Spend time on yourself because you are worth it!", "You come first because you are important!", "It is never too late to be what you might have been.", "Yesterday is in the past, always live in the present."]
       
 let btn = document.querySelector("#Qbtn");
